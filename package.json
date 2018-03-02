@@ -1,0 +1,9 @@
+{
+  "name": "three-particle-buffer-geometry",
+  "version": "0.1",
+  "main": "lib/three-particle-buffer-geometry.js",
+  "module": "src/three-particle-buffer-geometry.js",
+  "dependencies": {
+    "three": "*"
+  }
+}
