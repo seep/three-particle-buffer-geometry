@@ -1,9 +1,28 @@
 {
   "name": "three-particle-buffer-geometry",
-  "version": "0.1",
+  "version": "0.1.0",
+  "description": "Buffer a bunch of meshes into a single BufferGeometry",
   "main": "lib/three-particle-buffer-geometry.js",
   "module": "src/three-particle-buffer-geometry.js",
   "dependencies": {
     "three": "*"
-  }
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "three",
+    "geometry",
+    "webgl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seep/three-particle-buffer-geometry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seep/three-particle-buffer-geometry/issues"
+  },
+  "homepage": "https://github.com/seep/three-particle-buffer-geometry#readme",
+  "license": "MIT",
+  "author": "Chris Parker"
 }
